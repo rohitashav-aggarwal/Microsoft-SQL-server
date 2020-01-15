@@ -1,0 +1,7 @@
+Big box,4.99,79
+Small box,2.99,50
+Gadget,7.99,30
+widget,10,33
+Brush,2,3
+tool,45,0
+tool,45,0

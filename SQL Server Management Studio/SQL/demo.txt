@@ -1,0 +1,2 @@
+use demo
+select * from category

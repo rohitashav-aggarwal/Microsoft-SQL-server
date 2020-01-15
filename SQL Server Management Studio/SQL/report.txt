@@ -1,0 +1,27 @@
+1> 2> 3>  cat_id cat_desc             
+ ------ -------------------- 
+      1 Women's Clothing     
+      2 Children's Clothing  
+      3 Men's Clothing       
+      4 Outdoor Gear         
+
+(4 rows affected)
+
+H:\>sqlcmd -S SAIT224912OOSD\SQLEXPRESS -E -i c:\sql\demo.txt
+Changed database context to 'demo'.
+cat_id cat_desc
+------ --------------------
+     1 Women's Clothing
+     2 Children's Clothing
+     3 Men's Clothing
+     4 Outdoor Gear
+
+(4 rows affected)
+
+H:\>sqlcmd -S SAIT224912OOSD\SQLEXPRESS -E -i c:\sql\demo.txt -o c:\sql\report.txt
+
+H:\>osql -S SAIT224912OOSD\SQLEXPRESS -E -i c:\sql\demo.txt -o c:\sql\report.txt
+
+H:\>osql -S SAIT224912OOSD\SQLEXPRESS -E -i c:\sql\demo.txt -o c:\sql\report.txt
+
+H:\>
